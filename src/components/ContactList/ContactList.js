@@ -8,7 +8,7 @@ const ContactList = ({ contacts, onDeleteContact, filter }) => {
   );
 
   return (
-    <ul>
+    <ul className={styles.wrap}>
       {filteredContacts.map(({ id, name, number }) => (
         <li key={id}>
           {name}: {number}
