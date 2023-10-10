@@ -6,12 +6,9 @@
 
 .h1 {
     margin-bottom: 30px;
+    color: blue;
 }
 
-.h2 {
-    margin-top: 35px;
-    margin-bottom: 30px;
-}
 
 .label {
     display: flex;

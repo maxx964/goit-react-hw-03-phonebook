@@ -25,7 +25,7 @@ class ContactForm extends Component {
 
     return (
       <div className={styles.wrap}>
-        <h1 className={styles.h1}>Phonebook</h1>
+        <h2 className={styles.h1}>Phonebook</h2>
         <form onSubmit={this.handleSubmit}>
           <p className={styles.p}>Name</p>
           <label className={styles.label}>
